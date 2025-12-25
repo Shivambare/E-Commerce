@@ -1,0 +1,12 @@
+export default function Login() {
+  return (
+    <div className="form">
+      <h2>Login</h2>
+
+      <input type="email" placeholder="Email" required/>
+      <input type="password" placeholder="Password" required />
+
+      <button>Login</button>
+    </div>
+  )
+}
