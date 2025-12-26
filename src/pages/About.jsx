@@ -1,22 +1,30 @@
 export default function About() {
   return (
-    <div className="page">
-      <h1>About This Project</h1>
+    <section className="about">
+      <h2>About Our Store</h2>
 
       <p>
-        AquaShop is a responsive e-commerce frontend application
-        built using React and React Router.
+        We are a modern e-commerce platform focused on delivering
+        high-quality products with a smooth and user-friendly shopping
+        experience.
       </p>
 
-      <p>
-        This project focuses on clean UI, reusable components,
-        modern design, and responsive layouts.
-      </p>
+      <div className="about-features">
+        <div className="about-box">
+          <h4>Fast Delivery</h4>
+          <p>Quick and reliable shipping across India.</p>
+        </div>
 
-      <p>
-        It is frontend-only and created for learning React
-        fundamentals like routing, components, and styling.
-      </p>
-    </div>
-  )
+        <div className="about-box">
+          <h4>Secure Payments</h4>
+          <p>Safe and trusted payment gateways.</p>
+        </div>
+
+        <div className="about-box">
+          <h4>Quality Products</h4>
+          <p>Hand-picked products with quality assurance.</p>
+        </div>
+      </div>
+    </section>
+  );
 }
